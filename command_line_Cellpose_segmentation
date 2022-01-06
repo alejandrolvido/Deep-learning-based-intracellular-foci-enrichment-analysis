@@ -1,0 +1,4 @@
+# example of a command line Cellpose segmentation code using Anaconda Powershell Prompt
+# open Anaconda Powershell Prompt after putting the images to be segmented in a folder 'A1' located in Desktop, type:
+conda activate cellpose
+python -m cellpose --dir C:\Users\aleja\Desktop\A1\ --pretrained_model cyto --chan 2 --chan2 3 --save_png
